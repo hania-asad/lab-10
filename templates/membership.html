@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membership - Power Gym</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><strong>Power</strong>Gym</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/membership">Membership</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h1>Membership Plans</h1>
+        <p>Choose the plan that fits your fitness goals</p>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+         alt="Personal Training" 
+         class="gym-image">
+
+    <div class="content">
+        <h2>Select Your Plan</h2>
+        <div class="plans">
+            <div class="plan">
+                <h3>Basic</h3>
+                <div class="price">$29<span style="font-size: 16px;">/month</span></div>
+                <ul>
+                    <li>Gym Access</li>
+                    <li>Locker Room</li>
+                    <li>Free Weights</li>
+                    <li>Basic Machines</li>
+                </ul>
+                <a href="#" class="btn">Select Plan</a>
+            </div>
+
+            <div class="plan" style="border-top-color: #e74c3c;">
+                <h3>Premium</h3>
+                <div class="price">$49<span style="font-size: 16px;">/month</span></div>
+                <ul>
+                    <li>Everything in Basic</li>
+                    <li>Group Classes</li>
+                    <li>Cardio Zone</li>
+                    <li>Sauna Access</li>
+                </ul>
+                <a href="#" class="btn">Select Plan</a>
+            </div>
+
+            <div class="plan" style="border-top-color: #f1c40f;">
+                <h3>Pro</h3>
+                <div class="price">$79<span style="font-size: 16px;">/month</span></div>
+                <ul>
+                    <li>Everything in Premium</li>
+                    <li>Personal Trainer</li>
+                    <li>Nutrition Plan</li>
+                    <li>24/7 Access</li>
+                </ul>
+                <a href="#" class="btn">Select Plan</a>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <h2>Additional Services</h2>
+            <div class="features">
+                <div class="feature-box">
+                    <h3>Personal Training</h3>
+                    <p>$50/session</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Diet Planning</h3>
+                    <p>$30/consultation</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Yoga Classes</h3>
+                    <p>$15/class</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 Power Gym. All Rights Reserved.</p>
+    </div>
+</body>
+</html>

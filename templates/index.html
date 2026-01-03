@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home - Power Gym</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><strong>Power</strong>Gym</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/membership">Membership</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h1>Welcome to Power Gym</h1>
+        <p>Train Hard. Achieve More. Be Stronger.</p>
+        <a href="/membership" class="btn">Join Now</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        alt="Modern Gym Equipment" class="gym-image">
+
+    <div class="content">
+        <h2>Why Choose Power Gym?</h2>
+        <div class="features">
+            <div class="feature-box">
+                <h3>Modern Equipment</h3>
+                <p>Latest machines and free weights for all fitness levels.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Expert Trainers</h3>
+                <p>Certified trainers to guide your fitness journey.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Flexible Hours</h3>
+                <p>Open 24/7 for your convenience.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 Power Gym. All Rights Reserved.</p>
+    </div>
+</body>
+
+</html>
+
+
+<!-- /* python --version
+python -m pip install flask
+
+http://127.0.0.1:5000 -->
+ <!-- Running on http://127.0.0.1:5000 -->
